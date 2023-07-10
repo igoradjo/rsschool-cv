@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://igoradjo.github.io/rsschool-cv/cv
+https://igoradjo.github.io/rsschool-cv
