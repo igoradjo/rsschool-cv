@@ -96,3 +96,35 @@ span {
 .experience-company {
     padding-bottom: 20px;
 }
+
+/* ОБРАЗОВАНИЕ */
+
+.education1 {
+    display: flex;
+}
+
+.education-data {
+    width: 150px;
+    line-height: 1.8;
+}
+
+.education-info {
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+/* ПОВЫШЕНИЕ КВАЛИФИКАЦИИ, КУРСЫ */
+
+.courses1 {
+    display: flex;
+}
+
+.courses-data {
+    width: 150px;
+    line-height: 1.8;
+}
+
+.courses-info {
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
