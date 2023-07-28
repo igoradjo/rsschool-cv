@@ -20,6 +20,10 @@ p {
     margin: 0;
 }
 
+button {
+    cursor: pointer !important;
+}
+
 
 
 /* Container */
@@ -31,7 +35,7 @@ p {
 }
 
 /* Intro */
-.main {
+.welcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +49,7 @@ p {
     background-size: cover;
 }
 
-.main:after {
+.welcome:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -54,13 +58,13 @@ p {
       }
 
 
-.intro-main {
+.welcome-main {
     width: 600px;
     height: 220px;
     background-color: black;
 }
 
-.intro-title {
+.welcome-title {
     color: #FFF;
 text-align: center;
 font-family: Forum;
@@ -149,9 +153,8 @@ height: 150px;
     border: 0;
     background: none;
     cursor: pointer;
-    width: 28px;
-    height: 28px;
 }
+
 
 
 .about-header {
@@ -177,7 +180,7 @@ height: 150px;
     display: block;
     width: 50px;
     height: 1px;
-    margin: 40px auto;
+    margin: 20px auto;
 
     background-color: black;
 }
@@ -214,16 +217,27 @@ height: 150px;
 	display: inline-block; /*расположение в строку*/
 	width: 16px;
 	height: 16px;
-	background: black;
-
     cursor: pointer;
+    padding: 5px;
+}
+
+.switch-1, .switch-2, .switch-3 {
+    border-radius: 10px;
+    width: 16px;
+	height: 16px;
+	background: black;
+    cursor: pointer;
+}
+
+.switch-1 {
+    background: #BB945F;
 }
 
 .active { /*расположение блока с переключателями*/
 
     padding: 40px;
 
-    width: 68px;
+    width: 78px;
     margin: 0 auto;
 
     display: flex;
@@ -279,19 +293,31 @@ line-height: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 0px 30px;
+    margin-top: 20px;
 }
 
 .spring {
     display: none;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .summer {
     display: none;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .autumn {
     display: none;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .squ {
@@ -372,8 +398,17 @@ height: 320px;
 border: 1px solid #0C0C0E;
 width: 75px;
 height: 30px;
-cursor: pointer;
 background: #FFF;
+
+}
+
+.buttons-own {
+    border-radius: 2px;
+border: 1px solid #BB945F;
+width: 75px;
+height: 30px;
+background: #FFF;
+
 }
 
 .buy {
@@ -384,7 +419,19 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
-cursor: pointer;
+}
+
+.own {
+    text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+
+
+color: #BB945F;
 }
 
 .favorites-img {
@@ -402,11 +449,10 @@ height: 300px;
 
 .coffeshop-header {
     width: 100%;
-    max-width: 1440px;
     
     margin: 0 auto;
     text-align: center;
-    padding-top: 20px;
+    
 }
 
 
@@ -419,6 +465,7 @@ font-weight: 400;
 line-height: 40px; /* 200% */
 letter-spacing: 2px;
 text-transform: capitalize;
+padding-top: 20px;
 }
 
 .coffeshop-menu {
@@ -438,6 +485,7 @@ line-height: 40px; /* 100% */
 letter-spacing: 2px;
 text-transform: capitalize;
 padding-bottom: 40px;
+
 }
 
 .coffeshop-position {
@@ -486,7 +534,7 @@ text-transform: capitalize;;
 .contacts-info {
     display: flex;
     padding-bottom: 40px;
-
+    padding-top: 20px;
 }
 
 .text-info {
