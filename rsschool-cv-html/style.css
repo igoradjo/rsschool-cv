@@ -1,0 +1,131 @@
+body {
+    padding: 0 250px;
+    margin: 0 auto;
+    position: relative;
+    min-width: 1000px;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    line-height: 1.43;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 25px;
+}
+
+h5 {
+    color: grey;
+    font-weight: 300;
+    margin: 0px 0px 10px 0px;
+    padding-top: 15px;
+}
+
+p {
+    margin: 0;
+}
+
+span {
+    font-weight: 700;
+}
+
+/* MAIN */
+
+.main1 {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.main-title {
+    width: 80%;
+}
+
+.main-img {
+    padding-top: 20px;
+}
+
+.m-img {
+    max-width: 180px;
+    max-height: 260px;
+}
+
+.line {
+    border-top: 1px solid #000;
+    /* Параметры линии */
+    opacity: .2;
+}
+
+
+/* СПЕЦИАЛИСТ */
+.spec {
+    font-weight: 300;
+    margin-bottom: -10px;
+}
+
+
+/* ОПЫТ РАБОТЫ */
+
+
+.job-busyness {
+    margin: 0 auto;
+}
+
+.exper {
+    color: #959799;
+}
+
+.experience1 {
+    display: flex;
+}
+
+.experience-data {
+    width: 150px;
+    line-height: 1.8;
+}
+
+.experience-data-subtitle {
+    color: #959799;
+}
+
+.experience2 {
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.experience-company {
+    padding-bottom: 20px;
+}
+
+/* ОБРАЗОВАНИЕ */
+
+.education1 {
+    display: flex;
+}
+
+.education-data {
+    width: 150px;
+    line-height: 1.8;
+}
+
+.education-info {
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+/* ПОВЫШЕНИЕ КВАЛИФИКАЦИИ, КУРСЫ */
+
+.courses1 {
+    display: flex;
+}
+
+.courses-data {
+    width: 150px;
+    line-height: 1.8;
+}
+
+.courses-info {
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
